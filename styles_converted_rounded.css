@@ -343,6 +343,14 @@ h2 {
 
 }
 
+h4 {
+  font-family: 'r', sans-serif;
+  font-size: 1rem;
+  line-height: 100%;
+  margin-bottom: 0.7rem;
+  color: var(--accent4-color);
+}
+
 
 .offer p {
   font-family: 'l', sans-serif;
@@ -429,6 +437,8 @@ h2 {
   gap: 1rem;
   max-width: 60%;
   margin: 3rem auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .xjmrtdka3 {
@@ -437,6 +447,8 @@ h2 {
   gap: 1rem;
   max-width: 60%;
   margin: 3rem auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .xjmrtdka1 {
@@ -445,6 +457,8 @@ h2 {
   gap: 1rem;
   max-width: 60%;
   margin: 3rem auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .cfumzqae {
@@ -604,6 +618,14 @@ button img {
   color: var(--dark-color);
   line-height: 130%;
   margin: 0 0 0.94rem;
+}
+
+.description_small {
+  font-family: 'r', sans-serif;
+  font-size: 0.8rem;
+  color: var(--dark-color);
+  line-height: 130%;
+  margin: 0 0 0rem;
 }
 
 
@@ -1307,6 +1329,16 @@ object-fit: cover;
   }
 
   .xjmrtdka{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 86%;
+  }
+
+  .xjmrtdka3{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 86%;
+  }
+
+  .xjmrtdka1{
     grid-template-columns: repeat(1, 1fr);
     max-width: 86%;
   }
